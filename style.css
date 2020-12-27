@@ -1,6 +1,321 @@
+
 body {
   font-family: system-ui;
-  background: #f06d06;
-  color: white;
+  background: #c4c9ca;
+  color: black;
   text-align: center;
 }
+
+
+img {
+  border-radius: 50%;
+  border: 5px solid white;
+  float: left;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 100px;
+  position: absolute;
+  left: 220px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 100px;
+}
+
+
+
+.pub-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 100px;
+  position: relative;
+  left: 220px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.pub-card:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.pub-container {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 100px;
+}
+
+.sub-card {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -40px;
+}
+
+
+
+.contact-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  left: 220px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.contact-card:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.contact-container {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 300px;
+}
+
+.CV-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  left: 220px;
+  top: 700px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.CV-card:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.CV-container {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 300px;
+  top: 700px;
+}
+
+.CV-card-2 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 150px;
+  position: absolute;
+  left: 220px;
+  top:150px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.CV-card-2:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.CV-container-2 {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 150px;
+  top:150px;
+}
+
+
+.CV-card-3 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  left: 220px;
+  top:350px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.CV-card-3:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+
+/* Add some padding inside the card container */
+.CV-container-3 {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 300px;
+  top:350px;
+
+}
+
+uls {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+lis {
+    display: list-item;
+    text-align: left;
+}
+
+ulb {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.showme {
+  display: none;
+}
+
+.showhim:hover .showme {
+  display: block;
+}
+
+
+.grow:hover
+{
+        -webkit-transform: scale(2, 2);
+        transition-duration: 1s;
+}
+
+.growContainer {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 500px;
+  top:150px;
+}
+
+.CV-card-4 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  left: 220px;
+  top:150px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.CV-card-4:hover {
+  box-shadow: 0 80px 160px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.CV-container-4 {
+  padding: 16px 16px;
+  background-color:	#dddddd;
+  width: 800px;
+  height: 500px;
+  top:150px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  color: #0033cc;
+
+}
+.fa-twitter {
+  size: 200px;
+  background: none;
+  color: white;
+  width:10px;
+  height:10px;
+}
+
+.fa-google {
+  size: 200px;
+  background: none;
+  color: white;
+  width:10px;
+  height:10px;
+}
+
+.fa-linkedin {
+   size: 200px;
+  background: none;
+  color: white;
+  width:10px;
+  height:10px;
+}
+
+.fa-youtube {
+  size: 200px;
+  background: none;
+  color: white;
+  width:10px;
+  height:10px;
+}
+
+
