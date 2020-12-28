@@ -11,6 +11,7 @@ img {
   border-radius: 50%;
   border: 5px solid white;
   float: left;
+  margin-right: 30px;
 }
 #nav ul {
   list-style-type: none;
