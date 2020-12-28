@@ -66,12 +66,12 @@ li a:hover {
 /* Social media icons for home page */
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 20px;
+  padding: 2vw;
+  font-size: 2vw;
+  width: 2vw;
   text-align: center;
   text-decoration: none;
-  margin: 2px 2px;
+  margin: 2vw 2vw;
   border-radius: 50%;
 }
 .fa:hover {
@@ -79,35 +79,35 @@ li a:hover {
 
 }
 .fa-twitter {
-  size: 200px;
+  size: 5vw;
   background: none;
   color: white;
-  width:10px;
-  height:10px;
+  width:5vw;
+  height:5vw;
 }
 
 .fa-google {
-  size: 200px;
+  size: 5vw;
   background: none;
   color: white;
-  width:10px;
-  height:10px;
+  width:5vw;
+  height:5vw;
 }
 
 .fa-linkedin {
-   size: 200px;
+  size: 5vw;
   background: none;
   color: white;
-  width:10px;
-  height:10px;
+  width:5vw;
+  height:5vw;
 }
 
 .fa-youtube {
-  size: 200px;
+  size: 5vw;
   background: none;
   color: white;
-  width:10px;
-  height:10px;
+  width:5vw;
+  height:5vw;
 }
 
 /* Make a new card to present publication links on*/
