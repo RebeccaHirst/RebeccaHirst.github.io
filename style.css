@@ -1,7 +1,7 @@
 
 body {
   font-family: system-ui;
-  background: #c4c9ca;
+  background: white;
   color: black;
   text-align: center;
 }
@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #c4c9ca;
 }
 
 #nav li {
@@ -55,7 +55,7 @@ li a:hover {
 /* Add some padding inside the card container */
 .container {
   padding: 2vw 2vw;
-  background-color:	#dddddd;
+  background-color:	#F5F5F5;
   left: 12vw;
   right: 12vw;
   border-radius: 40px
@@ -185,6 +185,12 @@ ulb {
   border-radius: 40px
 }
 
+.whats-new-card {
+  background-color: #333;    /* Red */
+  padding: 2vw 2vw;
+  left: 12vw;
+  right: 12vw;
+}
 
 .footer {
   height: 150px;
@@ -217,5 +223,4 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
 
