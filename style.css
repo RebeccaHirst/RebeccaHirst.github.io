@@ -7,12 +7,7 @@ body {
 }
 
 
-img {
-  border-radius: 50%;
-  border: 5px solid white;
-  float: left;
-  margin-right: 30px;
-}
+
 #nav ul {
   list-style-type: none;
   margin: 0;
@@ -53,7 +48,7 @@ li a:hover {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 2vw 2vw 0 rgba(0,0,0,0.5);
+  box-shadow: 0 1vw 1vw 0 rgba(0,0,0,0.5);
 }
 
 /* Add some padding inside the card container */
