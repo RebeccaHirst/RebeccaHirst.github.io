@@ -37,6 +37,14 @@ li a:hover {
   background-color: #4CAF50;
 }
 
+@media screen and (max-width: 44em) {
+  nav[role="full-horizontal"] {
+    ul > li {
+      width: 100%;
+    }
+  }
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 0vw 0vw 0 rgba(0,0,0,0.2);
@@ -223,4 +231,3 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
