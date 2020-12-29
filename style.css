@@ -48,7 +48,7 @@ li a:hover {
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+.container:hover {
   box-shadow: 0 1vw 1vw 0 rgba(0,0,0,0.5);
 }
 
@@ -170,6 +170,25 @@ ulb {
   width: 800px;
   height: 500px;
   top:150px;
+}
+
+.sidebar {
+  height: 300px;
+  background-color: #F09A9D;    /* Red */
+}
+
+.sep {
+  background-color: #F09A9D;    /* Red */
+  padding: 2vw 2vw;
+  left: 12vw;
+  right: 12vw;
+  border-radius: 40px
+}
+
+
+.footer {
+  height: 200px;
+  background-color:  #333
 }
 
 
