@@ -44,6 +44,7 @@ li a:hover {
   position: absolute;
   left: 12vw;
   right: 12vw;
+  border-radius: 40px
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -57,18 +58,13 @@ li a:hover {
   background-color:	#dddddd;
   left: 12vw;
   right: 12vw;
+  border-radius: 40px
 }
 
 /* Social media icons for home page */
 /* Style all font awesome icons */
 .fa {
   padding: 2vw;
-  font-size: 2vw;
-  width: 2vw;
-  text-align: center;
-  text-decoration: none;
-  margin: 2vw 2vw;
-  border-radius: 50%;
 }
 .fa:hover {
   color: #0033cc;
@@ -77,7 +73,7 @@ li a:hover {
 .fa-twitter {
   size: 2vw;
   background: none;
-  color: white;
+  color: #333;
   width:2vw;
   height:2vw;
 }
@@ -85,7 +81,7 @@ li a:hover {
 .fa-google {
   size: 2vw;
   background: none;
-  color: white;
+  color: #333;
   width:2vw;
   height:2vw;
 }
@@ -93,7 +89,7 @@ li a:hover {
 .fa-linkedin {
   size: 2vw;
   background: none;
-  color: white;
+  color: #333;
   width:2vw;
   height:2vw;
 }
@@ -101,12 +97,34 @@ li a:hover {
 .fa-youtube {
   size: 2vw;
   background: none;
-  color: white;
+  color: #333;
   width:2vw;
   height:2vw;
 }
 
+.ai {
+  padding: 2vw;
+}
 
+.ai:hover {
+  color: #0033cc;
+
+}
+.ai-google-scholar {
+  size: 2vw;
+  background: none;
+  color: #333;
+  width:2vw;
+  height:2vw;
+}
+
+.ai-researchgate {
+  size: 2vw;
+  background: none;
+  color: #333;
+  width:2vw;
+  height:2vw;
+}
 
 uls {
     display: block;
