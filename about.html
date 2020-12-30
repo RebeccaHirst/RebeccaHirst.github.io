@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -26,59 +25,50 @@
   <div class="overlay"></div>
 </header>
 <style>
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 0px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  padding: 0px;
-}
-
-/* Rounded border */
-hr.rounded {
-  border-top: 8px solid #bbb;
-  border-radius: 5px;
-}
 </style>
 
-<div class="row">
-    <h1 style="float:left;margin-right:5px;">Research</h1></div>
-    <div class="row" >
-    <div class="column" style="text-align:left;padding:0px;">
-    <p>I am interested in <b>multisensory perception</b> and <b>distractions</b> across the <b>lifespan</b>.
+<h1 style="float:left;margin-bottom:0px;">Research</h1></div>
+<table style="width: 100%">
+    <colgroup>
+       <col span="1" style="width: 70%;">
+       <col span="1" style="width: 30%;">
+    </colgroup>
+
+
+
+    <!-- Put <thead>, <tbody>, and <tr>'s here! -->
+    <tbody>
+        <tr>
+            <td style="background-color: white; text-align:left;"><p>I am interested in <b>multisensory perception</b> and <b>distractions</b> across the <b>lifespan</b>.
         In my PhD I used a combination of psychophysics and EEG to investigate cross-modal (audio-visual) distractibility.
         Currently I am a postdoc at Trinity College Dublin, where I work with <b>The Irish Longitudinal Study on Ageing (TILDA)</b> to
-    investigate multisensory judgements in a large group of adults aged over 50 years.</p></div>
-<div class="column" style="text-align:right;">
-    <img src="images/TILDA_logo.jpg" alt="Avatar" width="60%" height="auto" style="float:right;max-width:200px; max-height:170px;">
-</div>
-</div>
-<hr class="rounded" style="position:relative;">
-<div class="row">
-    <h1 style="float:left;margin-right:15px;">Science officer</h1></div>
-    <div class="row">
-    <div class="column" style="text-align:left;">
-        <p>What is a science officer? I am just learning myself to be honest. I love <b>creating and coding experiments</b>
+    investigate multisensory judgements in a large group of adults aged over 50 years.</p></td>
+            <td style="background-color: white"><img src="images/TILDA_logo.jpg" alt="Avatar" width="100%" height="auto" style="float:right;max-width:200px; max-height:170px;"></td>
+        </tr>
+    </tbody>
+</table>
+
+<h1 style="float:left;margin-bottom:0px;">Science officer</h1></div>
+<table style="width: 100%">
+    <colgroup>
+       <col span="1" style="width: 70%;">
+       <col span="1" style="width: 30%;">
+    </colgroup>
+
+
+
+    <!-- Put <thead>, <tbody>, and <tr>'s here! -->
+    <tbody>
+        <tr>
+            <td style="background-color: white; text-align:left;border-radius:10%;"><p>What is a science officer? I am just learning myself to be honest. I love <b>creating and coding experiments</b>
         and I have always coded my own experiments in python using PsychoPy. In September 2020 I joined the PsychoPy
     team to help other scientists create their experiments. My role involves <b>education and outreach</b> including
             running <b> workshops </b>, offering
-        <b>consultancy</b> services and helping scientists claunch their tasks online.</p></div>
-<div class="column" style="text-align:right;">
-    <img src="images/psychopy600dpi.png" alt="Avatar" width="60%" height="auto" style="float:right;max-height:200px;max-width:200px;">
-</div>
-</div>
+        <b>consultancy</b> services and helping scientists claunch their tasks online.</p></td>
+            <td style="background-color: white"><img src="images/psychopy600dpi.png" alt="Avatar" width="100%" height="auto" style="float:right;max-height:200px;max-width:200px;"></td>
+        </tr>
+    </tbody>
+</table>
 
 <div class="footer" style="position:relative; top:50vh;">
     <style></style>
