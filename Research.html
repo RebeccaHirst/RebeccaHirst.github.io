@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-----logos for social media --->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
-<div id="nav">
-<ul>
-    <font style="float:left;text-align: center; padding: 2vw 2vw;color: white;"><i>Rebecca J. Hirst</i></font>
-    <li><a href="CV-pdf.html">CV</a></li>
-    <li><a href="Contact.html">Contact</a></li>
-    <li><a href="Research.html">Publications</a></li>
-    <li><a href="about.html">About me</a></li>
-    <li><a href="index.html">Home</a></li>
-</ul>
-</div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!----Logo---->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class ="navbar-brand">REBECCA HIRST</a>
+
+            <!---logo--->
+
+        </div>
+
+        <!---main menu--->
+        <div  class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav">
+                <li><a href="CV-pdf.html">CV</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li class="active"><a href="Research.html">Publications</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <header>
   <div class="content" style="height:100px;">
     <hgroup>
@@ -30,38 +58,34 @@
 
 <body>
 <div class=".container-fluid">
-<div class="jumbotron" id="about">
   <div class="row" id="about">
     <div class="col-md-2"></div>
-    <div class="col-md-4">
-        </div>
-          <div class="card" style="position:relative; max-width:80%; height:auto;">
-             <div class="container" style="position:relative; left:0vw; max-width:100%; height:auto;">
-                 <h> 2016 </h>
-                <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.dcn.2016.09.005", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;"></div>
-
-                  <p><a href="https://www.sciencedirect.com/science/article/pii/S1878929316301402"> Hodgson, J.C., Hirst, R.J., Hudson, J.M., Hemispheric speech lateralisation in the developing brain is related to motor praxis ability. <i> Dev. Cogn. Neurosci. </i>, 22 (2016), pp. 9-17, 10.1016/j.dcn.2016.09.005 </a></p>
-                 </div>
-              </div>
+      <div class="col-md-4">
+      </div>
+      <div class="card" style="position:relative; max-width:80%; height:auto;">
+          <div class="container" style="position:relative; left:0vw; max-width:100%; height:auto;">
+              <h> 2016 </h>
+              <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.dcn.2016.09.005", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;"></div>
+              <p><a href="https://www.sciencedirect.com/science/article/pii/S1878929316301402"> Hodgson, J.C., Hirst, R.J., Hudson, J.M., Hemispheric speech lateralisation in the developing brain is related to motor praxis ability. <i> Dev. Cogn. Neurosci. </i>, 22 (2016), pp. 9-17, 10.1016/j.dcn.2016.09.005 </a></p>
           </div>
-          <div class="card" style="position:relative; max-width:80% ;height:auto;">
-             <div class="container" style="position:relative; left:0vw; max-width:100% ;height:auto;">
-                <h> 2018 </h>
-                <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41598-018-30798-8", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;"></div>
-                 <p><p><a href="https://www.sciencedirect.com/science/article/pii/S1878929316301402"> Hirst, R.J., Stacey, J.E., Cragg, L. et al. The threshold for the McGurk effect in audio-visual noise decreases with development. <i> Sci Rep</i> 8, 12372 (2018). https://doi.org/10.1038/s41598-018-30798-8 </a></p>
-                 </div>
+      </div>
+  </div>
+    <div class="card" style="position:relative; max-width:80% ;height:auto;">
+        <div class="container" style="position:relative; left:0vw; max-width:100% ;height:auto;">
+            <h> 2018 </h>
+            <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1038/s41598-018-30798-8", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;"></div>
+            <p><p><a href="https://www.sciencedirect.com/science/article/pii/S1878929316301402"> Hirst, R.J., Stacey, J.E., Cragg, L. et al. The threshold for the McGurk effect in audio-visual noise decreases with development. <i> Sci Rep</i> 8, 12372 (2018). https://doi.org/10.1038/s41598-018-30798-8 </a></p>
+        </div>
+    </div>
+    <div class="card" style="position:relative; max-width:80% ;height:auto;">
+        <div class="container" style="position:relative; left:0vw; max-width:100% ;height:auto;">
+            <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.neubiorev.2018.07.012", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;" ></div>
+            <p><p><a href="https://www.sciencedirect.com/science/article/pii/S0149763417307674"> Hirst, R.J., Cragg, L. Allen, H.A. Vision dominates audition in adults but not children: A meta-analysis of the Colavita effect. <i>Neurosci. Biobehav. Rev.</i>, 94,(2018), pp 286-301. https://doi.org/10.1016/j.neubiorev.2018.07.012</a></p>
              </div>
           </div>
-          <div class="card" style="position:relative; max-width:80% ;height:auto;">
-             <div class="container" style="position:relative; left:0vw; max-width:100% ;height:auto;">
-                <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1016/j.neubiorev.2018.07.012", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;" ></div>
-               <p><p><a href="https://www.sciencedirect.com/science/article/pii/S0149763417307674"> Hirst, R.J., Cragg, L. Allen, H.A. Vision dominates audition in adults but not children: A meta-analysis of the Colavita effect. <i>Neurosci. Biobehav. Rev.</i>, 94,(2018), pp 286-301. https://doi.org/10.1016/j.neubiorev.2018.07.012</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="card" style="position:relative; max-width:80% ;height:auto;">
-             <div class="container" style="position:relative; left:0vw; max-width:100% ;height:auto;">
-             <h> 2019 </h>
+    <div class="card" style="position:relative; max-width:80% ;height:auto;">
+        <div class="container" style="position:relative; left:0vw; max-width:100% ;height:auto;">
+            <h> 2019 </h>
              <div class='altmetric-embed' data-badge-type='donut' data-doi="10.1037/xhp0000608", data-badge-popover='bottom' style="position:absolute; left:-45px;bottom:10px;"></div>
                <p><p><a href="https://psycnet.apa.org/fulltext/2019-18471-001.html"> Hirst, R. J., Kicks, E. C., Allen, H. A., & Cragg, L. (2019). Cross-modal interference-control is reduced in childhood but maintained in aging: A cohort study of stimulus- and response-interference in cross-modal and unimodal Stroop tasks. <i>JEP: HPP</i>, 45(5), 553-572. http://dx.doi.org/10.1037/xhp0000608</a></p>
               </div>
