@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-----logos for social media --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.blogcard {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.blogcard:hover {
+  box-shadow: 0 1vw 1vw 0 rgba(0,0,0,0.5);
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+
+<!----- Navigation bar--->
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!----Logo---->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class ="navbar-brand">REBECCA HIRST</a>
+
+            <!---logo--->
+
+        </div>
+
+        <!---main menu--->
+        <div  class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav">
+                <li><a href="CV-pdf.html">CV</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Research.html">Publications</a></li>
+                <li class="active"><a href="about.html">About me</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<body>
+
+<header>
+  <div class="content" style="height:100px;font-family: 'Trebuchet MS', sans-serif;">
+    <hgroup>
+      <h1 style="color: #D3D3D3;">REBECCA J. HIRST</h1>
+        <h2 style="color: #D3D3D3;">BLOG</h2>
+    </hgroup>
+  </div>
+  <div class="overlay"></div>
+</header>
+<style>
+</style>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="blogcard">
+      <h2>Headphone calibration</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div><a href="Research.html">
+      <div class="blogcard">
+      <h2>Why did my first blog fail?</h2>
+      <h5>A blog about a blog, Jan 1, 2021</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div></a>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+page views: <script type="text/javascript" src="//counter.websiteout.net/js/21/0/0/0"></script>
+<footer class="bg-primary text-white text-left text-lg-start">
+    <!--Grid row-->
+    <div class="row" style="background-color: #313131">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h7>Let's connect - follow me!</h7>
+        <ul class="list-unstyled">
+          <font size="5vw"> <a href="https://twitter.com/HirstRj" class="fa fa-twitter" style="color:white;padding:1vw;margin-top:3vw;"></a>
+    <a href="https://scholar.google.com/citations?user=c4fmvbYAAAAJ&hl=en" class="ai ai-google-scholar" style="color:white;padding:1vw;"></a>
+    <a href="https://uk.linkedin.com/in/dr-rebecca-hirst-562588148" class="fa fa-linkedin" style="color:white;padding:1vw;"></a>
+    <a href="https://www.researchgate.net/profile/Rebecca_Hirst3" class="ai ai-researchgate" style="color:white;padding:1vw;"></a>
+    <a href="https://www.youtube.com/channel/UC26AYN6Yq50CAdCK_7NJMsg" class="fa fa-youtube" style="color:white;padding:1vw;"></a>
+    <a href="https://github.com/RebeccaHirst" class="fa fa-github" style="color:white;padding:1vw;"></a></font>
+        </ul>
+      </div>
+    </div>
+    <!--Grid row-->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #313131">
+    Rebecca J. Hirst - 2020
+    <a class="text-white" href="https://rebeccahirst.github.io">rebeccahirst.github.io</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</body>
+</html>
